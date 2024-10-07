@@ -5,16 +5,23 @@ html, body{
     box-sizing: border-box;
     background-color: antiquewhite;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
 }
 
 container{
-    background-color: aqua;
+    background-color: rgb(238, 238, 238);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
-    padding: 20px;
+   
+/* 
+    width: 510px;
+    height: 510px; */
     
 }
 
@@ -22,4 +29,11 @@ container > div {
     width: 30px;
     height: 30px;
     border: 1px solid gray;
+    
     }
+
+    /* container > div:hover {
+
+        background-color: black;
+       
+        } */
