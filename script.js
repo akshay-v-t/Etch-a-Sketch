@@ -28,6 +28,7 @@ function makeDivs(numDivsPerRow) {
             }
 
             e.target.style.opacity = currentOpacity;
+            e.target.style.backgroundColor = generateRandomColor(); 
         });
     });
 }
