@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-
-html, body{
+html, body {
     box-sizing: border-box;
     background-color: antiquewhite;
     font-family: 'Poppins', sans-serif;
@@ -10,30 +9,22 @@ html, body{
     display: flex;
     padding: 50px;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
 
-container{
+container {
     background-color: rgb(238, 238, 238);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-   
-/* 
-    width: 510px;
-    height: 510px; */
-    
+    width: 500px;  
+    height: 500px;
+    border: 2px solid gray;
 }
 
 container > div {
-    width: 30px;
-    height: 30px;
     border: 1px solid gray;
-    
-    }
-
-    /* container > div:hover {
-
-        background-color: black;
-       
-        } */
+    box-sizing: border-box;
+}
